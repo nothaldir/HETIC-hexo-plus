@@ -1,4 +1,4 @@
-*Projet scolaire pour @HETIC*
+*Projet scolaire pour @HETIC réalisé en 2014*
 # HEXO+
 Accès à la version web du site : http://alex-berneau.com/hetic/H1/Hexo+/
 
