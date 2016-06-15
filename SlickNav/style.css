@@ -1,0 +1,15 @@
+#menu
+{
+	display: none;
+}
+
+.slicknav_menu 
+{
+	display:none;
+}
+
+@media screen and (max-width: 64em) {	
+	.js .slicknav_menu {
+		display:block;
+	}
+}

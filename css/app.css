@@ -1,0 +1,572 @@
+/* MAIN */
+
+.row
+{
+	max-width: 100%;
+}
+
+body
+{
+	background-color: #e8e8e8;
+}
+
+#background
+{
+	background-image: url(../img/back.png);	
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+
+#top
+{
+	margin-top: 80px;
+}
+
+/**************************************
+
+		INDEX
+
+**************************************/
+
+
+/* TITRE ET SOUS-TITRE */
+
+#title
+{
+	font-size: 5.8em;
+	color: #3b3f42;
+	letter-spacing: 0.1em;
+}
+
+.subtitle
+{
+	color: #6d6f71;
+	font-size: 1.8em;
+}
+
+
+/* MENU NAVIGATION */
+
+.nav ul
+{
+	list-style-type: none;
+	position: fixed;
+}
+
+.nav ul li
+{
+	padding-top: 10px;
+}
+
+.nav ul li a
+{
+	color: #33383a;
+	font-size: 1.3em;
+}
+
+.nav ul .item:hover
+{
+	border-bottom: 2px solid #33383a;
+	transition: all 0.4s ease;
+	font-weight: 500;
+}
+
+.language
+{
+	font-size: 0.9em;
+}
+
+.language a
+{
+	margin-right: 10px;
+}
+
+/* PAGE NAV ACTUELLE */
+
+.current
+{
+	border-bottom: 2px solid #33383a;
+	font-weight: 500;
+}
+
+/* PREORDER NOW */
+
+.bouton
+{
+	margin-top: 350px;
+	padding: 10px;
+	border: 3px solid #33383a;
+	font-size: 1.3em;
+	color: #33383a;
+	max-width: 280px;
+}
+
+.bouton-small
+{
+	padding: 10px;
+	border: 3px solid #33383a;
+	font-size: 1.3em;
+	color: #33383a;
+	width: 280px;
+	margin: auto;
+}
+
+.bouton2
+{
+	display: inline-block;
+	margin: 10px;
+	padding: 10px;
+	border: 3px solid #33383a;
+	font-size: 1.4em;
+	color: #33383a;
+	width: 240px;
+	text-transform: uppercase;
+
+}
+.bouton3
+{
+	display: inline-block;
+	padding: 10px;
+	border: 3px solid #33383a;
+	font-size: 1.4em;
+	color: #33383a;
+	width: 240px;
+	text-transform: uppercase;
+
+}
+
+.bouton2 a, .bouton3 a {
+	color: #33383a;
+}
+
+.bouton:hover, .bouton-small:hover, .bouton2:hover, .bouton3:hover
+{
+	background-color: #d0d0d0;
+	color: #33383a;
+	transition: all 0.6s ease;	
+}
+
+.kick
+{
+	font-size: 0.8em;
+	margin-top: 10px;
+}
+
+.learn
+{
+	font-size: 0.9em;
+	margin-top: 10px;
+}
+
+.learn a
+{
+	color: #33383a;
+
+}
+
+.learn a:hover
+{
+	color: #33383a;
+	border-bottom: 1px solid #33383a;
+}
+
+/* SCROLL DOWN + SOCIAL NETWORKS */
+
+
+.scroll1
+{
+	margin-top: 50px; 
+}
+
+.scroll2
+{
+	margin-bottom: 100px;
+}
+
+.social
+{
+	position: fixed;
+}
+
+.social a
+{
+	color: #33383a;
+}
+
+/* MADE FOR YOU */
+
+.made
+{
+	font-size: 2.5em;
+}
+
+.second
+{
+	margin-top: 20px;
+}
+
+.second p
+{
+	font-size: 0.9em;
+}
+
+.second h4
+{
+	font-size: 1.2em;
+}
+
+.p1
+{
+	text-align: right;
+	margin-top: 90px;	
+}
+
+.p1 p
+{
+	margin-bottom: 70px;
+	padding-right: 80px;
+}
+
+.p1 h4
+{
+	padding-right: 60px;
+}
+
+.p2
+{
+	text-align: left;
+}
+
+.p2 p
+{
+	padding-left: 80px;
+}
+
+.p2 h4
+{
+	padding-left: 60px;
+}
+
+/* THE FUTURE IS HERE */
+
+.t2 h2 
+{
+	text-transform: uppercase;
+	color: #3b3f42;
+	font-size: 4em;
+}
+.t2p h2 
+{
+	text-transform: uppercase;
+	color: #FFF;
+	font-weight: 800;
+	font-size: 4em;
+}
+
+.t3p h3 
+{
+
+	text-transform: uppercase;
+	color: #3b3f42;
+	font-size: 30px;
+
+}
+
+.part2
+{
+	margin-top: 100px;
+	padding-bottom: 230px;
+}
+.img-surf
+{
+	margin-top: 40px;
+}
+
+/* WHOLE NEW LEVEL */
+
+.third
+{
+	background-color: white;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.third h5
+{
+	font-size: 1.5em;
+	letter-spacing: 0.4em;	
+}
+
+.third h6
+{
+	font-size: 1.5em;
+	font-weight: bold;
+	letter-spacing: 0.4em;
+	margin-bottom: 50px;	
+}
+
+/* FOOTER */
+
+.footer
+{
+	border-top: 2px solid #33383a;
+}
+
+.footer h5
+{	
+	margin-top: 80px;
+	font-size: 2em;
+	padding: 10px;
+	letter-spacing: 0.2em;	
+}
+
+.footer ul li
+{
+	display: inline-block;
+	padding: 10px;
+	margin-bottom: 80px;
+}
+
+.footer a
+{
+	color: #33383a;
+}
+
+.footer a:hover
+{
+	border-bottom: 1px solid #33383a;
+	transition: all 0.2 ease;
+	font-weight: 600;
+}
+
+.home
+{
+	border: 0px;
+}
+
+/******************************************
+
+		PRODUCT
+
+*******************************************/
+
+.specs
+{
+	margin-top: 100px;
+	margin-bottom: 152px;
+}
+
+.title2
+{
+	letter-spacing: 0.1em;
+	font-size: 2.5em;
+	padding: 7px;
+}
+
+.descr
+{
+	margin-top: 30px;
+	padding-right: 0px;
+	letter-spacing: 0.1em;
+	font-weight: 400;
+	font-size: 1.2em;
+}
+
+.buy
+{
+	padding: 10px;
+	border: 1px solid #33383a;
+	font-size: 1.3em;
+	color: #33383a;
+	background-color: #e8e8e8;
+	width: 200px;
+	margin-top: 10px;
+}
+
+.buy:hover
+{
+	background-color: #d0d0d0;
+	color: #33383a;
+	transition: all 0.6s ease;	
+}
+
+.footer2
+{
+	margin-top: 100px;
+}
+
+/*   YOUTUBE VIDEO */
+
+.iframe-responsive-wrapper 
+{
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.iframe-responsive-wrapper .iframe-ratio 
+{
+	display: block;
+	width  : 100%;
+	height: 100%;
+}
+
+.iframe-responsive-wrapper iframe 
+{
+	position: absolute;
+	margin  : auto;
+	border  : 0;
+	top     : 10%;
+	width   : 100%;
+	height  : 100%;
+}
+
+/* MOBILE RESPONSIVE */
+
+.small
+{
+	margin-top: 100px;
+}
+
+#menu
+{
+	width: 100%;
+}
+
+#small-title
+{
+	font-size: 5em;
+	color: #3b3f42;
+	letter-spacing: 0.1em;
+}
+
+/* ABOUT US */
+
+.equipe
+{
+	margin-top: 90px;
+	margin-bottom: 90px;
+}
+
+.equipe-small
+{
+	margin-bottom: 50px;
+	margin-top: 30px;
+}
+
+.equipe > li {
+    display: inline-block;
+    padding:0;
+    width: 21%;    
+}
+
+.equipe2 > li {
+    display: inline-block;
+    padding:0;
+    width: 40%;    
+}
+
+.bandeau {
+    background-color: white;
+    display: inline-block;
+    margin: auto;
+    width: 1980px;
+    margin-top: 35px;
+}
+
+#bandeautitle
+{
+	font-size: 1.4em;
+	color: #3b3f42;
+    font-weight: 400;
+    margin-top: 35px;
+    display: inline-block;
+}
+
+#bandeausubtitle
+{
+	color: #6d6f71;
+    font-family: Raleway, sans-serif;
+	font-size: 1.1em;
+    letter-spacing:0.09em;
+    font-weight: 650;
+}
+
+.logokick
+{
+    width: 30%;
+    margin: 20px;
+}
+
+.generique 
+{
+    background-color: #fff;
+    margin: auto;
+}
+
+.ambassador
+{
+    padding-top: 5%;
+    padding-left: 6.8%;
+}
+
+.ambassador-small
+{
+    margin-bottom: 30px;
+    margin-top: 40px;
+    width: 90%;
+}
+
+.ambassador-small2
+{
+    width: 90%;
+}
+
+.ambassador > li {
+    width:45%;
+    display: inline-block;
+}
+
+.ambamembre {
+    width:88.7%;
+}
+
+#amba {
+    margin-top: 20px;
+}
+
+
+.loli
+{
+	margin-bottom: 100px;
+}
+
+
+#amba a
+{
+	color: #33383a;
+	border-bottom: 1px solid #33383a;
+}
+
+#amba a:hover
+{
+	color: #33383a;
+	border-bottom: 1px solid #33383a;
+	font-weight: 600;
+}
+
+.background-about
+{
+	background-color: white;
+}
+
+/* ANIMATION BONHOMME */
+
+.monsieur
+{
+
+}
+
+.social-product
+{
+	margin-bottom: 50px;
+}

@@ -1,0 +1,52 @@
+/*
+Cadre de la liste 
+*/
+#cadre_defil_3 { 
+	overflow : hidden;
+	height: 260px; 
+	width:225px; 
+	margin: 0 auto;
+   /* border:1px solid #CCCCCC; */
+    background-color: #fff;
+		
+		
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.1em;
+    
+	line-height:1.4em;
+	text-align:justify;	
+	color: 
+}
+
+
+#cadre_defil_3 img {
+	border:0;
+	vertical-align: middle;
+	display:block;margin:auto;}
+
+
+#cadre_defil_3 .liens {
+	color: #000000;
+}
+
+#conteneur_defil_3 {
+	position : relative;
+	overflow : hidden;
+	visibility : hidden;
+	height:100%;
+}
+
+/*
+Texte  de la liste 
+*/
+
+#objet_defilant_3 {
+
+text-align: center;
+}
+
+.play {
+    width:200px;
+    margin: auto;
+    text-align: center;
+}
